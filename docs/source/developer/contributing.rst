@@ -98,7 +98,7 @@ of the llvmlite library::
 
 Then create an environment with the right dependencies::
 
-   $ conda create -n numbaenv python=3.8 llvmlite numpy scipy jinja2 cffi
+   $ conda create -n numbaenv python=3.8 llvmlite numpy scipy jinja2 cffi opt_einsum
 
 .. note::
    This installs an environment based on Python 3.8, but you can of course
